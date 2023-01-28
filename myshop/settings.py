@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'orders.apps.OrdersConfig',
 
 ]
-
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
