@@ -33,6 +33,9 @@
 
 
 
+
+
+
                                     {% if product.image %}{{ product.image.url }} {% else %}{% static "img/no_image.png" %}{% endif %}">
                         </a>
                     </td>
@@ -77,11 +80,25 @@
             <td>Total</td>
             <td colspan="4"></td>
             <td class="num">
-                ${{ cart. get_total_price_after_discount|floatformat:2 }}
+                ${{ cart.get_total_price_after_discount|floatformat:2 }}
             </td>
         </tr>
         </tbody>
     </table>
+    {% if recommended_products %}
+        <div class="recommendations cart">
+            <h3>People who bought this also bought</h3>
+            {% for p in recommended_products %}
+                <div class="item">
+                    <a href="{{ p.get_absolute_url }}">
+                        <img src="{% if p.image %}{{ p.image.url }}{% else %}
+{% static "img/no_image.png " %}{% endif %}">
+                    </a>
+                    <p><a href="{{ p.get_absolute_url }}">{{ p.name }}</a></p>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
     <p>Apply a coupon:</p>
     <form action="{% url "coupons:apply" %}" method="post">
         {{ coupon_apply_form }}
