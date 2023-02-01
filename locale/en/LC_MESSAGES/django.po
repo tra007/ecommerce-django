@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-01 20:48+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\cart\forms.py:8 .\templates\cart\detail.html:16
+#: .\templates\orders\order\pdf.html:24
+msgid "Quantity"
+msgstr ""
+
+#: .\coupons\forms.py:6
+msgid "Coupon"
+msgstr ""
+
+#: .\myshop\settings.py:113
+msgid "English"
+msgstr ""
+
+#: .\myshop\settings.py:114
+msgid "Spanish"
+msgstr ""
+
+#: .\myshop\urls.py:27
+msgid "cart/"
+msgstr ""
+
+#: .\myshop\urls.py:28
+msgid "orders/"
+msgstr ""
+
+#: .\myshop\urls.py:29
+msgid "coupons/"
+msgstr ""
+
+#: .\templates\cart\detail.html:6 .\templates\cart\detail.html:10
+msgid "Your shopping cart"
+msgstr ""
+
+#: .\templates\cart\detail.html:14
+msgid "Image"
+msgstr ""
+
+#: .\templates\cart\detail.html:15 .\templates\orders\order\pdf.html:22
+msgid "Product"
+msgstr ""
+
+#: .\templates\cart\detail.html:17 .\templates\cart\detail.html:43
+msgid "Remove"
+msgstr ""
+
+#: .\templates\cart\detail.html:18
+msgid "Unit price"
+msgstr ""
+
+#: .\templates\cart\detail.html:19 .\templates\orders\order\pdf.html:23
+msgid "Price"
+msgstr ""
+
+#: .\templates\cart\detail.html:37
+msgid "Update"
+msgstr ""
+
+#: .\templates\cart\detail.html:54 .\templates\orders\order\pdf.html:40
+msgid "Subtotal"
+msgstr ""
+
+#: .\templates\cart\detail.html:60
+#, python-format
+msgid ""
+"\n"
+"                        \"%(code)s\" coupon (%(discount)s%% off)\n"
+"                    "
+msgstr ""
+
+#: .\templates\cart\detail.html:71 .\templates\orders\order\create.html:28
+#: .\templates\orders\order\pdf.html:58
+msgid "Total"
+msgstr ""
+
+#: .\templates\cart\detail.html:82 .\templates\shop\product\detail.html:26
+msgid "People who bought this also bought"
+msgstr ""
+
+#: .\templates\cart\detail.html:95
+msgid "Apply a coupon"
+msgstr ""
+
+#: .\templates\cart\detail.html:98
+msgid "Apply"
+msgstr ""
+
+#: .\templates\cart\detail.html:102
+msgid "Continue shopping"
+msgstr ""
+
+#: .\templates\cart\detail.html:103 .\templates\orders\order\create.html:5
+#: .\templates\orders\order\create.html:9
+msgid "Checkout"
+msgstr ""
+
+#: .\templates\orders\order\create.html:11
+msgid "Your order"
+msgstr ""
+
+#: .\templates\orders\order\create.html:21
+#, python-format
+msgid ""
+"\n"
+"                        \"%(code)s\" (%(discount)s%% off)\n"
+"                    "
+msgstr ""
+
+#: .\templates\orders\order\create.html:32
+msgid "Place order"
+msgstr ""
+
+#: .\templates\orders\order\pdf.html:4 .\templates\shop\base.html:7
+#: .\templates\shop\base.html:12
+msgid "My shop"
+msgstr ""
+
+#: .\templates\orders\order\pdf.html:6
+msgid "Invoice no."
+msgstr ""
+
+#: .\templates\orders\order\pdf.html:11
+msgid "Bill to"
+msgstr ""
+
+#: .\templates\orders\order\pdf.html:18
+msgid "Items bought"
+msgstr ""
+
+#: .\templates\orders\order\pdf.html:25
+msgid "Cost"
+msgstr ""
+
+#: .\templates\orders\order\pdf.html:47
+#, python-format
+msgid ""
+"\n"
+"                    \"%(code)s\" (%(discount)s%% off)\n"
+"                "
+msgstr ""
+
+#: .\templates\orders\order\pdf.html:65
+msgid "Paid"
+msgstr ""
+
+#: .\templates\orders\order\pdf.html:65
+msgid "Pending payment"
+msgstr ""
+
+#: .\templates\shop\base.html:18
+msgid "Your cart"
+msgstr ""
+
+#: .\templates\shop\base.html:26
+msgid "Your cart is empty."
+msgstr ""
+
+#: .\templates\shop\product\detail.html:21
+msgid " Add to cart "
+msgstr ""
+
+#: .\templates\shop\product\list.html:6 .\templates\shop\product\list.html:24
+msgid "Products"
+msgstr ""
+
+#: .\templates\shop\product\list.html:11
+msgid "Categories"
+msgstr ""
+
+#: .\templates\shop\product\list.html:14
+msgid "All"
+msgstr ""
